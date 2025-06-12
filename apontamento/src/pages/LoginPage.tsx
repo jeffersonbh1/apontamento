@@ -21,7 +21,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
     // Simulate API call
     setTimeout(() => {
       // Demo credentials check
-      if (email === 'demo@example.com' && password === 'password') {
+      if (email === 'demo@example.com' && password === '123456') {
         const user: UserType = {
           id: '1',
           name: 'Demo User',
@@ -134,7 +134,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
 
             <div className="text-center text-sm">
               <p className="text-text-secondary">
-                For demo, use: demo@example.com / password
+                For demo, use: demo@example.com / 123456
               </p>
             </div>
           </form>
