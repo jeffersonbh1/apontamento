@@ -46,7 +46,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
             <Logo />
           </div>
           <h2 className="mt-6 text-center text-2xl font-bold">
-            Sign in to your account
+            Entre na sua conta
           </h2>
           
           {error && (
